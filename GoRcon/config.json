@@ -1,0 +1,40 @@
+{
+    "arma": {
+        "enabled": true,
+        "ip": "78.46.72.163",
+        "port": "2412",
+        "password": "",
+        "keepAliveTimer": 10,
+        "keepAliveTolerance": 4,
+        "showChat": true,
+        "showEvents": true
+    },
+    "scheduler": {
+        "enabled": true,
+        "path": "schedule.json"
+    },
+    "watcher": {
+        "enabled": true,
+        "path": "G:\\Acryl_Exile_PVE\\Server\\arma3server.exe",
+        "params": [
+			"-BEPath=G:\\Acryl_Exile_PVE\\Server\\battleye",
+			"-cfg=G:\\Acryl_Exile_PVE\\Server\\basic.cfg",
+			"-profiles=G:\\Acryl_Exile_PVE\\Server\\aCryl",
+			"-config=G:\\Acryl_Exile_PVE\\Server\\config.cfg",
+			"-name=aCryl",
+			"-port=2402",
+			"-enableHT",
+			"-world=empty",
+			"-nosplash",
+			"-nosound",
+			"-autoInit",
+			"-servermod=@ExileServer;@AdvancedTowing;@GMS;@A3XAI;@AdvancedRappelling;@ESM",
+			"-mod=@Exile;@ExtendedBaseMod;@NIArms;@CBA_A3;@Multiplay;@Zombies"
+        ],
+        "logToFile": false,
+        "logFolder": "logs",
+        "logToConsole": false
+    }
+}
+
+

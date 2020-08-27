@@ -1,0 +1,53 @@
+{
+    "schedule": [
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "08",
+            "minute": "0"
+        },
+		
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "12",
+            "minute": "0"
+        },
+
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "16",
+            "minute": "0"
+        },
+
+		
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "20",
+            "minute": "0"
+        },
+
+		
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "0",
+            "minute": "0"
+        },
+		
+		{
+            "command": "",
+            "restart": true,
+            "day": "*",
+            "hour": "4",
+            "minute": "0"
+        }
+    ]
+}
